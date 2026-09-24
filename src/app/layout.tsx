@@ -6,8 +6,7 @@ import "./globals.css";
 import StoreProvider from "./StoreProvider";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "@/components/ui/sonner";
-import { Metadata } from "next";
-
+import type { Metadata } from "next";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
