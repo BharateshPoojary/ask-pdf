@@ -121,8 +121,6 @@ injected at runtime.
 # Build and run the app
 docker compose up --build
 
-# Optionally spin up a local MongoDB alongside it
-docker compose --profile local-db up
 ```
 
 ## 🚀 Deployment (CI/CD)
